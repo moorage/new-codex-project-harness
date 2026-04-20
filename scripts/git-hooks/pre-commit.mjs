@@ -22,16 +22,21 @@ const getOutput = (command, args) => {
 };
 
 const hasStagedChanges = () => getOutput("git", ["diff", "--cached", "--name-only"]).length > 0;
+const stageIfChanged = (path) => {
+  const status = getOutput("git", ["status", "--short", "--", path]);
+  if (status.length > 0) {
+    run("git", ["add", path]);
+    console.log(`pre-commit: refreshed and staged ${path}`);
+  }
+};
 
 if (!hasStagedChanges()) {
   process.exit(0);
 }
 
 run("python3", ["scripts/knowledge/generate_repo_map.py"]);
+run("python3", ["scripts/knowledge/update_quality_score.py"]);
+run("python3", ["scripts/knowledge/suggest_doc_updates.py"]);
 
-const repoMapPath = "docs/generated/repo-map.json";
-const repoMapChanged = spawnSync("git", ["diff", "--quiet", "--", repoMapPath]);
-if (repoMapChanged.status === 1) {
-  run("git", ["add", repoMapPath]);
-  console.log(`pre-commit: refreshed and staged ${repoMapPath}`);
-}
+stageIfChanged("docs/generated/repo-map.json");
+stageIfChanged("docs/QUALITY_SCORE.md");

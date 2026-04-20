@@ -2,7 +2,6 @@ name: default
 setup:
   - npm install
   - npm run hooks:install || true
-  - npm run knowledge:refresh || true
 
 actions:
   install_hooks:
