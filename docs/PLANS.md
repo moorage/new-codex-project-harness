@@ -27,6 +27,15 @@ Use an ExecPlan when any of the following is true:
 
 For small bug fixes, typo fixes, or tightly local changes, an ExecPlan is optional.
 
+## Required critique gate
+
+After an ExecPlan is drafted and before implementation starts, use
+`.agents/skills/feature-critic/SKILL.md` for:
+- new medium-size or large product features
+- large software changes beyond tightly local polish (for example, not a button resize)
+
+Apply the plan changes it requires before coding.
+
 ## Where plans live
 
 - active plans: `docs/exec-plans/active/`
