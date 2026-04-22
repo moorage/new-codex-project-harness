@@ -27,6 +27,25 @@ Use an ExecPlan when any of the following is true:
 
 For small bug fixes, typo fixes, or tightly local changes, an ExecPlan is optional.
 
+## Recommended framing step
+
+Before decomposing non-trivial work into milestones, use
+`.agents/skills/expert-roundtable/SKILL.md` when the request benefits from
+multiple expert lenses, especially for:
+- user-facing feature work
+- messaging, permissions, or trust-sensitive workflows
+- agentic features involving model behavior, prompts, or evals
+- architecture changes with operational consequences
+
+The output should be a concise synthesis memo, not a long transcript. Use that
+memo to shape:
+- the problem framing in `Purpose / Big Picture`
+- the constraints and prior art in `Context and Orientation`
+- the key tradeoffs in `Decision Log`
+- the sequencing and risk handling in `Milestones`
+
+Do not use this step for trivial bug fixes or narrow mechanical edits.
+
 ## Required critique gate
 
 After an ExecPlan is drafted and before implementation starts, use
@@ -163,5 +182,7 @@ Recommended extra sections for larger or riskier plans:
 - `## Idempotence and Recovery`
 - `## Artifacts and Notes`
 - `## Interfaces and Dependencies`
+- `## Framing Notes` for preserving a concise pre-plan synthesis when it
+  materially improves restartability
 
 These sections are not mandatory for every plan in the current repo, but they are encouraged when they materially improve restartability or safe implementation.
