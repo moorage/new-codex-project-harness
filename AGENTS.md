@@ -102,6 +102,7 @@ Before non-trivial work, read in this order:
 - lint: `npm run lint`
 - typecheck: `npm run typecheck`
 - unit tests: `npm run test:unit`
+- git hook tests: `npm run test:git-hooks`
 - integration tests: `npm run test:integration`
 - webhook smoke: `npm run test:webhook-smoke`
 - eval smoke: `npm run test:eval-smoke`
@@ -122,6 +123,13 @@ Before non-trivial work, read in this order:
 - include exact commands run
 - include screencast evidence for new or materially changed visible workflows when capture is possible
 - include remaining risks and follow-ups
+
+## Commit messages
+
+- Every commit message must include exactly one Git trailer named `AI-Model`.
+- Use `AI-Model: <model-version>` when an AI model was used, for example `AI-Model: gpt-5.5`.
+- Use `AI-Model: none` when no AI model was used.
+- The `.githooks/commit-msg` hook enforces this policy after `scripts/install-git-hooks.mjs` configures `core.hooksPath`.
 
 ## Code comments
 

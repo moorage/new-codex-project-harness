@@ -145,6 +145,10 @@
       "children": [
         {
           "type": "file",
+          "name": "commit-msg"
+        },
+        {
+          "type": "file",
           "name": "pre-commit"
         }
       ]
@@ -209,7 +213,12 @@
             {
               "type": "dir",
               "name": "completed",
-              "children": []
+              "children": [
+                {
+                  "type": "file",
+                  "name": "2026-04-27-ai-model-commit-trailer.md"
+                }
+              ]
             }
           ]
         },
@@ -269,6 +278,14 @@
       ]
     },
     {
+      "type": "file",
+      "name": "package-lock.json"
+    },
+    {
+      "type": "file",
+      "name": "package.json"
+    },
+    {
       "type": "dir",
       "name": "scripts",
       "children": [
@@ -306,6 +323,14 @@
           "type": "dir",
           "name": "git-hooks",
           "children": [
+            {
+              "type": "file",
+              "name": "commit-msg.mjs"
+            },
+            {
+              "type": "file",
+              "name": "commit-msg.test.mjs"
+            },
             {
               "type": "file",
               "name": "pre-commit.mjs"

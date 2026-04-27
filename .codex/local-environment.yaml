@@ -14,6 +14,8 @@ actions:
     run: npm run verify:docs
   verify_execplan:
     run: npm run verify:execplan
+  test_git_hooks:
+    run: npm run test:git-hooks
   refresh_knowledge:
     run: npm run knowledge:refresh
   suggest_doc_updates:
