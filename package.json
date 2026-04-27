@@ -24,6 +24,6 @@
     "capture:screencast:run": "node scripts/ci/run_with_screencast.mjs"
   },
   "engines": {
-    "node": "24.13.0"
+    "node": "25.9.0"
   }
 }
