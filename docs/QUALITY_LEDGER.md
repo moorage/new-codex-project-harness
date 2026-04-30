@@ -1,4 +1,4 @@
-# QUALITY_SCORE.md
+# QUALITY_LEDGER.md
 
 Purpose: make structural quality legible, track debt, and support small clean-up PRs.
 
@@ -9,7 +9,7 @@ Scoring scale:
 - 2 = fragile
 - 1 = high risk / poor legibility
 
-Last refreshed: 2026-04-27
+Last refreshed: 2026-04-29
 Refresh owner: knowledge automation + reviewer of affected PRs
 
 ## Scorecard

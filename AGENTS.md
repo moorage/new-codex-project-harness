@@ -8,7 +8,7 @@ Start here. Use this file as the map of what is real today and how to extend it 
 ## First reads
 Before non-trivial work, read in this order:
 
-1. `ARCHITECTURE.md`
+1. `docs/ARCHITECTURE.md`
 2. `docs/PLANS.md`
 3. `docs/ideas/README.md` when the work is exploratory or you are promoting an existing idea
 4. `.agents/IMPLEMENT.md`
@@ -30,7 +30,7 @@ Before non-trivial work, read in this order:
 - Prefer one meaningful change per loop
 - Keep changed guidance in sync:
   - user-visible behavior change -> update the relevant product spec
-  - boundary or module change -> update `ARCHITECTURE.md`
+  - boundary or module change -> update `docs/ARCHITECTURE.md`
   - reliability/security posture change -> update the matching doc
   - prompt asset or eval workflow change -> update `prompts/`, `evals/`, and the matching product spec plus README
   - repeated correction -> update the nearest `AGENTS.md` or create a skill
@@ -42,7 +42,7 @@ Before non-trivial work, read in this order:
   - then run `npm run verify:execplan` when an active ExecPlan changed
 - Before finishing:
   - review diffs for doc drift
-  - refresh generated knowledge artifacts when the tree or quality score changed
+  - refresh generated knowledge artifacts when the tree or quality ledger changed
   - update `.agents/DOCUMENTATION.md` when work followed an active ExecPlan
 
 ## Invariants
@@ -56,12 +56,12 @@ Before non-trivial work, read in this order:
 - the dashboard is internal-only until auth is added
 
 ## Where truth lives
-- architecture map: `ARCHITECTURE.md`
+- architecture map: `docs/ARCHITECTURE.md`
 - execution-plan standard: `docs/PLANS.md`
 - ideation backlog and prioritization rules: `docs/ideas/`
 - security rules: `docs/SECURITY.md`
 - reliability rules: `docs/RELIABILITY.md`
-- quality score and debt register: `docs/QUALITY_SCORE.md`
+- quality ledger and debt register: `docs/QUALITY_LEDGER.md`
 - product requirements: `docs/product-specs/`
 - condensed references: `docs/references/`
 - execution loop guidance: `.agents/IMPLEMENT.md`
@@ -77,7 +77,7 @@ Before non-trivial work, read in this order:
 ## Codex surfaces
 - CLI-native surfaces:
   - `AGENTS.md`
-  - `ARCHITECTURE.md`
+  - `docs/ARCHITECTURE.md`
   - `docs/PLANS.md`
   - `docs/ideas/`
   - `.codex/config.toml`

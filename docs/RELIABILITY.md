@@ -37,5 +37,4 @@ Optional capture helper:
 After a material incident:
 - add or update a regression test or eval case
 - update this file if the failure exposed a missing invariant
-- update `docs/QUALITY_SCORE.md` if the issue reflects structural debt
-
+- update `docs/QUALITY_LEDGER.md` if the issue reflects structural debt

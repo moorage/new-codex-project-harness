@@ -14,7 +14,7 @@ Use it to capture work that is worth shaping, discussing, or prioritizing, but i
 
 - active implementation plans with milestones and verification history
 - user-visible requirements that are already true today; those belong in `docs/product-specs/`
-- architecture facts that are already true today; those belong in `ARCHITECTURE.md`
+- architecture facts that are already true today; those belong in `docs/ARCHITECTURE.md`
 
 ## Workflow
 

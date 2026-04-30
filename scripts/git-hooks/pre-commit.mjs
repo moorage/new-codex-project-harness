@@ -35,8 +35,8 @@ if (!hasStagedChanges()) {
 }
 
 run("python3", ["scripts/knowledge/generate_repo_map.py"]);
-run("python3", ["scripts/knowledge/update_quality_score.py"]);
+run("python3", ["scripts/knowledge/update_quality_ledger.py"]);
 run("python3", ["scripts/knowledge/suggest_doc_updates.py"]);
 
 stageIfChanged("docs/generated/repo-map.json");
-stageIfChanged("docs/QUALITY_SCORE.md");
+stageIfChanged("docs/QUALITY_LEDGER.md");

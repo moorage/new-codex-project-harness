@@ -8,12 +8,12 @@ ROOT = Path(__file__).resolve().parents[2]
 
 REQUIRED_FILES = [
     ROOT / "AGENTS.md",
-    ROOT / "ARCHITECTURE.md",
+    ROOT / "docs" / "ARCHITECTURE.md",
     ROOT / "README.md",
     ROOT / "docs" / "PLANS.md",
     ROOT / "docs" / "SECURITY.md",
     ROOT / "docs" / "RELIABILITY.md",
-    ROOT / "docs" / "QUALITY_SCORE.md",
+    ROOT / "docs" / "QUALITY_LEDGER.md",
     ROOT / "docs" / "product-specs" / "index.md",
     ROOT / ".agents" / "IMPLEMENT.md",
     ROOT / ".agents" / "DOCUMENTATION.md",

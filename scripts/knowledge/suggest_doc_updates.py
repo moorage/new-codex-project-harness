@@ -44,7 +44,7 @@ if any("claim" in f.lower() or "offer" in f.lower() or "encounter" in f.lower() 
 if any("auth" in f.lower() or "security" in f.lower() for f in files):
     hints.append("Consider docs/SECURITY.md updates.")
 if any(f.startswith("packages/domain/") for f in files):
-    hints.append("Consider ARCHITECTURE.md if boundaries or domain concepts changed.")
+    hints.append("Consider docs/ARCHITECTURE.md if boundaries or domain concepts changed.")
 if any(f.startswith(".codex/") or f.startswith(".agents/") or f.startswith("scripts/knowledge/") for f in files):
     hints.append("Consider README.md, AGENTS.md, docs/PLANS.md, docs/ideas/README.md, and npm run verify:docs after control-plane changes.")
 if any(f.startswith("docs/ideas/") or f == "scripts/check_ideation.py" for f in files):

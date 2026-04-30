@@ -171,10 +171,6 @@
     },
     {
       "type": "file",
-      "name": "ARCHITECTURE.md"
-    },
-    {
-      "type": "file",
       "name": "README.md"
     },
     {
@@ -187,11 +183,19 @@
         },
         {
           "type": "file",
+          "name": "ARCHITECTURE.md"
+        },
+        {
+          "type": "file",
+          "name": "CODING_STANDARDS.md"
+        },
+        {
+          "type": "file",
           "name": "PLANS.md"
         },
         {
           "type": "file",
-          "name": "QUALITY_SCORE.md"
+          "name": "QUALITY_LEDGER.md"
         },
         {
           "type": "file",
@@ -213,12 +217,7 @@
             {
               "type": "dir",
               "name": "completed",
-              "children": [
-                {
-                  "type": "file",
-                  "name": "2026-04-27-ai-model-commit-trailer.md"
-                }
-              ]
+              "children": []
             }
           ]
         },
@@ -359,7 +358,7 @@
             },
             {
               "type": "file",
-              "name": "update_quality_score.py"
+              "name": "update_quality_ledger.py"
             },
             {
               "type": "file",
