@@ -9,7 +9,7 @@ Scoring scale:
 - 2 = fragile
 - 1 = high risk / poor legibility
 
-Last refreshed: 2026-04-29
+Last refreshed: 2026-04-30
 Refresh owner: knowledge automation + reviewer of affected PRs
 
 ## Scorecard

@@ -377,10 +377,6 @@
           ]
         }
       ]
-    },
-    {
-      "type": "file",
-      "name": "skills-lock.json"
     }
   ]
 }
