@@ -7,7 +7,7 @@ Read in order:
 1. `AGENTS.md`
 2. `ARCHITECTURE.md`
 3. `docs/PLANS.md`
-4. `.agents/IMPLEMENT.md`
+4. `docs/EXECUTION_GUIDE.md`
 5. relevant `docs/product-specs/*`
 6. relevant `docs/ideas/backlog/*` brief if the work is being promoted from ideation
 7. nearest nested `AGENTS.md` if any

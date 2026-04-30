@@ -14,14 +14,6 @@
           "name": ".DS_Store"
         },
         {
-          "type": "file",
-          "name": "DOCUMENTATION.md"
-        },
-        {
-          "type": "file",
-          "name": "IMPLEMENT.md"
-        },
-        {
           "type": "dir",
           "name": "skills",
           "children": [
@@ -188,6 +180,14 @@
         {
           "type": "file",
           "name": "CODING_STANDARDS.md"
+        },
+        {
+          "type": "file",
+          "name": "EXECUTION_GUIDE.md"
+        },
+        {
+          "type": "file",
+          "name": "IMPLEMENTATION_LOG.md"
         },
         {
           "type": "file",

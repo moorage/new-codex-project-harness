@@ -15,8 +15,8 @@ REQUIRED_FILES = [
     ROOT / "docs" / "RELIABILITY.md",
     ROOT / "docs" / "QUALITY_LEDGER.md",
     ROOT / "docs" / "product-specs" / "index.md",
-    ROOT / ".agents" / "IMPLEMENT.md",
-    ROOT / ".agents" / "DOCUMENTATION.md",
+    ROOT / "docs" / "EXECUTION_GUIDE.md",
+    ROOT / "docs" / "IMPLEMENTATION_LOG.md",
     ROOT / "scripts" / "check_ideation.py",
 ]
 

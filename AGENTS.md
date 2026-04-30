@@ -11,7 +11,7 @@ Before non-trivial work, read in this order:
 1. `docs/ARCHITECTURE.md`
 2. `docs/PLANS.md`
 3. `docs/ideas/README.md` when the work is exploratory or you are promoting an existing idea
-4. `.agents/IMPLEMENT.md`
+4. `docs/EXECUTION_GUIDE.md`
 5. the relevant file under `docs/product-specs/`
 6. the relevant file under `docs/ideas/backlog/` if one exists
 7. the nearest nested `AGENTS.md`
@@ -43,7 +43,7 @@ Before non-trivial work, read in this order:
 - Before finishing:
   - review diffs for doc drift
   - refresh generated knowledge artifacts when the tree or quality ledger changed
-  - update `.agents/DOCUMENTATION.md` when work followed an active ExecPlan
+  - update `docs/IMPLEMENTATION_LOG.md` when work followed an active ExecPlan
 
 ## Invariants
 - parse all external input at the boundary
@@ -64,8 +64,8 @@ Before non-trivial work, read in this order:
 - quality ledger and debt register: `docs/QUALITY_LEDGER.md`
 - product requirements: `docs/product-specs/`
 - condensed references: `docs/references/`
-- execution loop guidance: `.agents/IMPLEMENT.md`
-- running implementation notes: `.agents/DOCUMENTATION.md`
+- execution guide: `docs/EXECUTION_GUIDE.md`
+- implementation log: `docs/IMPLEMENTATION_LOG.md`
 
 ## Automatic maintenance
 - knowledge-base CI validates required docs and the generated repo map
